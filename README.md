@@ -1,5 +1,7 @@
 # Intune Device Management Lab
 
+![Endpoint compliance tests](https://github.com/WaleedWTR/intune-device-management-lab/actions/workflows/tests.yml/badge.svg)
+
 A portfolio endpoint-management project demonstrating device inventory, compliance analysis, configuration-baseline design and Microsoft Graph automation patterns.
 
 > **Portfolio note:** All device records and policy examples are synthetic.
@@ -39,6 +41,14 @@ Compliance    Configuration
 ```bash
 python scripts/compliance_report.py
 ```
+
+## Key documentation
+
+- [Windows compliance baseline](docs/compliance-baseline.md)
+- [Operational runbook](docs/operational-runbook.md)
+- [Synthetic device inventory](data/synthetic_devices.csv)
+- [Microsoft Graph export script](scripts/export-intune-devices.ps1)
+- [Technical references](docs/references.md)
 
 ## Skills demonstrated
 
