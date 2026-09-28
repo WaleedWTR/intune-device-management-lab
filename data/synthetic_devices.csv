@@ -1,0 +1,7 @@
+device_id,device_name,os,os_version,compliant,bitlocker,secure_boot,firewall,antivirus,last_checkin_days
+DEV-001,LAB-W11-001,Windows 11,10.0.26100,true,true,true,true,true,1
+DEV-002,LAB-W11-002,Windows 11,10.0.26100,false,false,true,true,true,2
+DEV-003,LAB-W10-003,Windows 10,10.0.19045,false,true,true,true,true,20
+DEV-004,LAB-W11-004,Windows 11,10.0.26100,true,true,true,true,true,0
+DEV-005,LAB-W11-005,Windows 11,10.0.26100,false,true,true,false,true,4
+DEV-006,LAB-W11-006,Windows 11,10.0.26100,true,true,true,true,true,3
