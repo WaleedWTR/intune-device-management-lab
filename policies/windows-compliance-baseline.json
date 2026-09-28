@@ -1,0 +1,18 @@
+{
+  "name": "Windows Compliance Baseline",
+  "version": "1.0",
+  "platform": "Windows",
+  "requirements": {
+    "bitLockerRequired": true,
+    "secureBootRequired": true,
+    "minimumOsMajorVersion": 10,
+    "firewallRequired": true,
+    "antivirusRequired": true,
+    "maximumInactivityDays": 14
+  },
+  "deployment": {
+    "pilotRing": "endpoint-pilot",
+    "productionRing": "managed-windows",
+    "exceptionProcessRequired": true
+  }
+}
